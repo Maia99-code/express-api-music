@@ -23,7 +23,7 @@ const generarPlaylist = (numCanciones = 5) => {
 
   return {
     idPlaylist: faker.string.uuid(),
-    nombre: faker.lorem.words(3).join(' '), // Cambia esto para un nombre más legible
+    nombre: faker.lorem.words(3).join(' '), 
     descripcion: faker.lorem.sentence(),
     canciones,
     creador: faker.person.fullName(),
